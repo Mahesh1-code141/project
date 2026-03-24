@@ -11,7 +11,7 @@ stages {
         steps {
             git branch: 'main',
             credentialsId: 'Github',
-            url: 'https://github.com/Mahesh1-code141/isro.git'
+            url: 'https://github.com/Mahesh1-code141/project.git'
         }
     }
 
