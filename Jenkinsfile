@@ -39,7 +39,7 @@ stages {
         steps {
             sh '''
             docker rm -f nginx_cont || true
-	    docker run -d -p 2009:80 --name nginx_cont $DOCKER_IMAGE:latest
+	    docker run -d -p 80:80 --name nginx_cont $DOCKER_IMAGE:latest
             '''
         }
     }
